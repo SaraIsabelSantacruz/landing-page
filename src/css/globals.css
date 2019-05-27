@@ -125,7 +125,7 @@ a{
 
 .alert{
   position: absolute;
-  padding: 20px;
+  padding: 8px;
   background: #ff1f1f9c;
   border-radius: 10px;
   left: 50%;
