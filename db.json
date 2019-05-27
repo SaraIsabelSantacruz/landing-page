@@ -1,0 +1,50 @@
+{
+  "sign_in": [
+    {
+      "id": 1
+    },
+    {
+      "id": 2
+    },
+    {
+      "id": 3
+    },
+    {
+      "id": 4
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "sku": 512534124,
+      "name": "Optical mouse",
+      "imagen": "http://www.resko.in/image/cache/data/41DuUw2k7PL._SL500_AC_SS350_-800x800.jpg",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur eum atque.",
+      "price": 512
+    },
+    {
+      "id": 2,
+      "sku": 35252355,
+      "name": "Keyboard",
+      "imagen": "https://tr3.cbsistatic.com/hub/i/2017/11/28/daa369fe-9f62-4098-8b4e-ab6fa1aee318/key01041024x1024.jpg",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur eum atque.",
+      "price": 632
+    },
+    {
+      "id": 3,
+      "sku": 754745726,
+      "name": "Headphones",
+      "imagen": "https://cdn11.bigcommerce.com/s-k11cg5mzh9/images/stencil/640x640/products/123/4003/b002d519c87675dba5b567b261a418f825514c2a4b8f83b42a9a4955b0027e53__06696.1553101475.jpg?c=2&imbypass=on",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur eum atque.",
+      "price": 7334
+    },
+    {
+      "id": 4,
+      "sku": 6327237255,
+      "name": "Microphone",
+      "imagen": "http://www.pulse-audio.co.uk/wp-content/uploads/PLS00544_A.jpg",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur eum atque.",
+      "price": 543
+    }
+  ]
+}
