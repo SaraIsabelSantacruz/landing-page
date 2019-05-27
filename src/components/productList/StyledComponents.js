@@ -1,4 +1,5 @@
 import styled from 'styled-components'
+import backgroundNav from '../../assets/backgrounds/Bg_Header.png'
 
 export const FormWarp = styled.form`
 	
@@ -22,10 +23,13 @@ export const FormWarp = styled.form`
 export const ContainerList = styled.section`
 	display: flex;
 		justify-content: space-around;
-		align-items: center;
-	@media (max-width: 680px) {
-		flex-direction: column;
-	justify-content: flex-start;
+    align-items: center;
+    background-size: cover;
+	  background-image: url(${backgroundNav});
+	  @media (max-width: 680px) {
+      flex-direction: column;
+      justify-content: flex-start;
+    }
 	}
 `
 

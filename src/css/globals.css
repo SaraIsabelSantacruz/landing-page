@@ -44,6 +44,11 @@ body{
 	margin: 0;
 }
 
+#App{
+  max-width: 1500px;
+  margin: auto;
+}
+
 section{
 	width: 100%;
 	height: calc(100vh - 90px);
@@ -91,6 +96,16 @@ a{
     border-radius: 25px;
 }
 
+.btn-primary:focus{
+	outline: none;
+}
+
+.--button-logout{
+  left: 90%;
+  position: relative;
+  display: inline-block;
+}
+
 .btn-primary:hover{
 	background: var(--gary-light);
 }
@@ -106,6 +121,15 @@ a{
 
 .btn-secondary:hover{
 	background: var(--gray-dark);
+}
+
+.alert{
+  position: absolute;
+  padding: 20px;
+  background: #ff1f1f9c;
+  border-radius: 10px;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 @media(max-width: 680px){

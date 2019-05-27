@@ -61,7 +61,7 @@ class Login extends Component {
 			<Fragment>
 				<section className='section-login'>
 					<Header pageType={'login'} />
-					{this.props.authentication.message === "Login fail" ? <h3>Problemas con el servidor</h3> : null}
+					{this.props.authentication.message === "Login fail" ? <h3 class='alert'>Problemas con el servidor</h3> : null}
 					<Form
 						setInputRef = {this.setInputRef}
 						handleSubmit = {this.handleSubmit}

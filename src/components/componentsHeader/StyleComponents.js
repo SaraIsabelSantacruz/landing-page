@@ -92,7 +92,9 @@ export const NavBarContainer = styled.nav`
 	z-index: 2;	
 	background-size: cover;
 	background-image: url(/static/media/Bg_Header.d6b135ac.png);
-	background-color: var(--white);
+  background-color: var(--white);
+  left: 0;
+  top: 0;
 	.image-container img{
 		height: 30px;
 	}

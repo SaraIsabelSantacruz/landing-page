@@ -32,6 +32,7 @@ const Search = props => {
 
 	return(
 		<Fragment>
+      <button onClick = { onClick } className='btn-primary --button-logout'>LOGOUT</button>
 			<FormWarp
 				onSubmit = {handleSubmit}
 			>
@@ -44,7 +45,6 @@ const Search = props => {
 					placeholder='Buscar el producto...'
 				/>
 			</FormWarp>
-			<button onClick = { onClick }>LOGOUT</button>
 		</Fragment>
 	)
 }

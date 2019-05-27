@@ -59,7 +59,7 @@ export const FormWrap = styled.form`
 	border-radius: 10px;
 	border: 2px solid #80808047;
 	box-shadow: 1px 5px 20px 2px #80808052;
-	background-size: contain;
+  background-size: cover;
 	background-image: url(${backgroundNav});
 
 	@media (max-width: 680px){
