@@ -4,11 +4,13 @@ import { searchPrducts } from '../../state/actionsCreators'
 import Input from '../componentsForm/Input'
 import {FormWarp} from './StyledComponents'
 
-const useSearchProducts = products => {
-	const [query, setQuery] = React.useState('')
-	const [filteredList, setFilteredList] = React.useState(products)
+const Search = props => {
+  let { products, handleSearchproducts, onClick } = props
 
-	React.useMemo(() => {
+  const [query, setQuery] = React.useState('')
+  const [filteredList, setFilteredList] = React.useState(products)
+  
+  React.useMemo(() => {
 		const result = products && products.filter(product => {
 			return product.name
 			.toLowerCase()
@@ -16,13 +18,7 @@ const useSearchProducts = products => {
 		})
 		setFilteredList(result)
 	}, [products, query])
-
-	return { query, setQuery, filteredList}
-}
-
-const Search = props => {
-	let { products, handleSearchproducts, onClick } = props
-	const { query, setQuery, filteredList } = useSearchProducts(products)
+  
 
 	const handleSubmit = eve => {
 		eve.preventDefault()
